@@ -27,6 +27,14 @@
     &__left {
         width: 33.33333%;
         display: table-cell;
+        
+        @include respond(tab-port) {
+            vertical-align: middle;
+        }
+
+        @include respond(phone) {
+            vertical-align: middle;
+        }
     }
 
     &__right {
@@ -34,6 +42,14 @@
         display: table-cell;
         vertical-align: middle;
         padding: 3rem 5rem;
+
+        @include respond(tab-port) {
+            padding: 4rem 2rem;
+        }
+
+        @include respond(phone) {
+            padding: 4rem 2rem;
+        }
     }
 
     &__img {
@@ -57,6 +73,16 @@
         -ms-hyphens: auto;
         -webkit-hyphens: auto;
         hyphens: auto;
+
+        @include respond(tab-port) {
+            -moz-column-count: 1;
+            column-count: 1;
+        }
+
+        @include respond(phone) {
+            -moz-column-count: 1;
+            column-count: 1;
+        }
     }
 
     // Open popup state
@@ -82,6 +108,14 @@
             display: inline-block;
             transition: all .2s;
             line-height: 1;
+
+            @include respond(tab-port) {
+                top: 1.5rem;
+            }
+
+            @include respond(phone) {
+                top: 1.5rem;
+            }
         }
 
         &:hover {
