@@ -27,6 +27,7 @@ For watching the Natours project:
         
 ## 3-rd project: Nexter  
 For watching the Nexter project:  
+
     1) cd /3-Nexter  
     2) open terminal and run:  
         npm install  
