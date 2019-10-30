@@ -16,7 +16,9 @@
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^7.1.4",
+    "braces": "^3.0.2",
     "concat": "^1.0.3",
+    "mem": "^5.1.1",
     "node-sass": "^4.5.3",
     "npm-run-all": "^4.1.1",
     "postcss-cli": "^4.1.1"
