@@ -22,3 +22,11 @@ For watching the Natours project:
         npm start
     4) open 2nd terminal-window and run: 
         npm run build:css
+        
+## 3-rd project: Nexter
+For watching the Nexter project:
+    1) cd /3-Nexter
+    2) open terminal and run:
+        npm install
+    3) after installing packages run:
+        npm start
