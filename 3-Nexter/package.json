@@ -19,7 +19,7 @@
     "braces": "^3.0.2",
     "concat": "^1.0.3",
     "mem": "^5.1.1",
-    "node-sass": "^4.5.3",
+    "node-sass": "^4.13.1",
     "npm-run-all": "^4.1.1",
     "postcss-cli": "^4.1.1"
   }
